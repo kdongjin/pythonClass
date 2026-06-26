@@ -11,6 +11,3 @@ def cal_kda(kill, death, assist):
 kda = cal_kda(10,2,7)
 print("KDA(Kill-Death-Assist) 비율을 계산 : {}".format(kda))
 
-import sys
-print("파이썬", "자바", file=sys.stdout)
-print("파이썬", "자바", file=sys.stderr)
